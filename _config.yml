@@ -23,8 +23,8 @@ avatar_image: /img/harone.jpg
 
 #-------------------------------
 # Contact links
-# linkedln: "https://www.linkedin.com/in/harone-jaaved/" # Add your linkedln handle
-# github: "https://github.com/haronejaaved"  # Add your github handle
+linkedln: "https://www.linkedin.com/in/harone-jaaved/" # Add your linkedln handle
+github: "https://github.com/haronejaaved"  # Add your github handle
 
 
 paginate: 6
