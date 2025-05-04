@@ -22,15 +22,8 @@ avatar_image: /img/harone.jpg
 
 #-------------------------------
 # Contact links
-function Link (link)
-  if link.target:match '^https?%:' then
-    link.attributes.target = '_blank'
-    linkedln: "https://www.linkedin.com/in/harone-jaaved/" # Add your linkedln handle
-    github: "https://github.com/haronejaaved"  # Add your github handle
-    return link
-    
-  end
-end
+# linkedln: "https://www.linkedin.com/in/harone-jaaved/" # Add your linkedln handle
+# github: "https://github.com/haronejaaved"  # Add your github handle
 
 
 paginate: 6
