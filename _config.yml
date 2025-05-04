@@ -25,13 +25,13 @@ avatar_image: /img/harone.jpg
 function Link (link)
   if link.target:match '^https?%:' then
     link.attributes.target = '_blank'
-    return link
     linkedln: "https://www.linkedin.com/in/harone-jaaved/" # Add your linkedln handle
     github: "https://github.com/#"  # Add your github handle
+    return link
+    
   end
 end
-# linkedln: "https://www.linkedin.com/in/harone-jaaved/" # Add your linkedln handle
-# github: "https://github.com/#"  # Add your github handle
+
 
 paginate: 6
 paginate_path: "/page/:num"
