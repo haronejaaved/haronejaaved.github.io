@@ -1,5 +1,5 @@
 # Remote theme directory
-remote_theme: minimal
+remote_theme: analytics-link/analytics-link.github.io
 
 plugins:
   - jekyll-paginate
@@ -27,8 +27,7 @@ linkedln: "https://www.linkedin.com/in/harone-jaaved/" # Add your linkedln handl
 github: "https://github.com/haronejaaved"  # Add your github handle
 
 
-paginate: 6
-paginate_path: "/page/:num"
+
 
 sass:
   sass_dir: _sass
