@@ -1,0 +1,61 @@
+#-------------------------------
+# General Site Settings
+title: Harone Jaaved 
+description: "Hi I'm Harone, and I'm a Senior Data Analyst | Data Scientist.  My portfolio focuses on interesting projects I've recently undertaken, with a strong emphasis on business impact. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
+
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+#-------------------------------
+# About Section
+subtitle: Data Science <span style="color:#f58506"> Portfolio </span>
+location: "Melbourne, Australia"
+resume_url: /docs/Harone_Jaaved_Resume.pdf
+avatar_image: /img/avatar.jpg
+
+#-------------------------------
+# Contact links
+linkedln: "https://www.linkedin.com/in/harone-jaaved/" # Add your linkedln handle
+github: "https://github.com/haronejaaved"  # Add your github handle
+
+#-------------------------------
+# Add my own links to footer like website etc
+website coming soon: https://haronejaaved.github.io/
+
+
+#-------------------------------
+# Build settings
+markdown: kramdown
+permalink: ':title/'
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll
+
+paginate: 6
+paginate_path: "/page/:num"
+
+sass:
+  sass_dir: _sass
+  style: compressed # possible values: nested expanded compact compressed
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+      read_time: true
+      share: true
+
+
+#-------------------------------
+# Exclude from processing.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
