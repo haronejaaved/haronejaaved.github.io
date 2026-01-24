@@ -10,6 +10,13 @@ baseurl: "" # keep blank for username.github.io sites
 url: "https://haronejaaved.github.io"
 
 #-------------------------------
+# Header / Hero Text (NEW)
+headline: "Senior Data Analyst | SQL • Python • Power BI"
+tagline: >
+  I build analytics that improves decisions — from data cleaning and modelling
+  to dashboards and measurable business outcomes.
+
+#-------------------------------
 # About Section
 subtitle: Data <span style="color:#f58506">Analytics</span> Portfolio
 location: "Melbourne, Australia"
