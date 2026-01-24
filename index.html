@@ -1,15 +1,28 @@
 ---
 layout: default
 ---
-<div class="container">
-    <div class="row">
-        <div class="col col-12 col-t-12">
-            <div class="row">
-                {% for post in paginator.posts %}
-                    {% include post-card.html %}
-                {% endfor %}
-            </div>
-            {% include pagination.html %}
-        </div>
+
+<section class="hero">
+  <div class="container">
+    <h1>{{ site.title }}</h1>
+    <p class="hero-subtitle">{{ site.description }}</p>
+    <div class="hero-links">
+      <a class="button" href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="button button--secondary" href="{{ site.github }}" target="_blank" rel="noopener">GitHub</a>
+      <a class="button button--secondary" href="{{ site.website }}" target="_blank" rel="noopener">Portfolio</a>
     </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="row">
+    <div class="col col-12 col-t-12">
+      <div class="row">
+        {% for post in paginator.posts %}
+          {% include post-card.html %}
+        {% endfor %}
+      </div>
+      {% include pagination.html %}
+    </div>
+  </div>
 </div>
