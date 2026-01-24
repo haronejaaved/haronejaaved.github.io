@@ -1,60 +1,47 @@
 #-------------------------------
 # General Site Settings
-title: Harone Jaaved 
-description: "Hi I'm Harone, and I'm a Senior Data Analyst | Data Scientist.  My portfolio focuses on interesting projects I've recently undertaken, with a strong emphasis on business impact. Please visit my Github & LinkedIn pages by using the links below!"
+title: Harone Jaaved
+description: >
+  Data Analyst based in Melbourne, Australia. This portfolio highlights projects
+  focused on SQL, Python, Power BI, and business impact. Use the links below to
+  view my GitHub and LinkedIn.
 
-
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # keep blank for username.github.io sites
+url: "https://haronejaaved.github.io"
 
 #-------------------------------
 # About Section
-subtitle: Data Science <span style="color:#f58506"> Portfolio </span>
+subtitle: Data <span style="color:#f58506">Analytics</span> Portfolio
 location: "Melbourne, Australia"
 avatar_image: /img/avatar.jpg
 
 #-------------------------------
 # Contact links
-linkedln: "https://www.linkedin.com/in/harone-jaaved/" # Add your linkedln handle
-github: "https://github.com/haronejaaved"  # Add your github handle
-
-#-------------------------------
-# Add my own links to footer like website etc
-website coming soon: https://haronejaaved.github.io/
-
+linkedin: "https://www.linkedin.com/in/harone-jaaved/"
+github: "https://github.com/haronejaaved"
+website: "https://haronejaaved.github.io/"
 
 #-------------------------------
 # Build settings
 markdown: kramdown
-permalink: ':title/'
+permalink: "/:title/"
+
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll
 
 paginate: 6
 paginate_path: "/page/:num"
 
 sass:
   sass_dir: _sass
-  style: compressed # possible values: nested expanded compact compressed
+  style: compressed
 
 defaults:
   - scope:
+      path: ""
       type: posts
     values:
       layout: post
       read_time: true
       share: true
-
-
-#-------------------------------
-# Exclude from processing.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
